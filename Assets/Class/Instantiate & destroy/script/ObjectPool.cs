@@ -18,6 +18,7 @@ public class ObjectPool : MonoBehaviour
     //int value = 0;
     private void Start()
     {
+        objpool = this;
         // 1. 초기값설정 2.조건식 3.명령문을 한번실행함 4.초기값 증감
         for(int i = 0; i < 5; i++) //0 1 2 3 4 5일때 종료
         {
